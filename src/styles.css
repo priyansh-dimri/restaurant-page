@@ -132,3 +132,19 @@ nav {
     text-align: center;
     font-weight: bold;
 }
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    width: 70vw;
+    margin: 1rem auto 0;
+    padding: 0.4rem 0;
+    background-color: var(--primary);
+    border-radius: 100px 100px 0 0;
+    font-size: 0.7rem;
+    font-family: heading-font;
+    > * {
+        /* Defaults color of all links*/
+        color: var(--text); 
+    }
+}
